@@ -1,4 +1,4 @@
-# Contact icons shown at the bottom of the home page, in this order.
-# See https://github.com/george-gca/jekyll-socials for the full list of supported keys.
-email: tmf2@columbia.edu
+# Contact icons for the home page (shown only if `social: true` in _pages/about.md).
+# The email is deliberately not listed here: it would be published as a plain mailto link.
+# See https://github.com/george-gca/jekyll-socials for supported keys.
 cv_pdf: /assets/pdf/Frye_CV.pdf

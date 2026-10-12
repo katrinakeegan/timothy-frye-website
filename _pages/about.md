@@ -11,9 +11,10 @@ profile:
   more_info: >
     <p>420 W. 118th Street, 811 IAB</p>
     <p>New York, NY 10027</p>
+    <p>tmf2 [at] columbia [dot] edu</p>
 
 selected_papers: false
-social: true
+social: false
 ---
 
 _Bio to come._

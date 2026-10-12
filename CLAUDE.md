@@ -26,5 +26,5 @@ Personal academic website for Timothy Frye (Columbia University), built from the
 
 - Light mode only, deep red accent (`#8b1a1a`), serif headings. No news or blog section: the site is updated about once a year, so avoid wording that dates quickly.
 - The topic filter uses AND logic across selected topics. Entries without `topics` are hidden whenever a filter is active.
-- Email addresses are obfuscated at build time (`protect_email: true`); do not write raw `mailto:` links in pages.
+- Email addresses are written as `name [at] columbia [dot] edu` to deter scrapers. Do not add raw addresses or `mailto:` links, and do not add `email` to `_data/socials.yml` (it renders as a plain `mailto:`; the theme's `protect_email` option did not cover it).
 - The deploy step runs PurgeCSS over the built HTML and JS. A CSS class that appears in neither gets stripped, so classes toggled by JavaScript must be named literally in the script.

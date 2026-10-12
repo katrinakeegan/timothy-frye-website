@@ -15,9 +15,7 @@
   url: https://global.oup.com/academic/product/workplace-politics-9780197802014
   cover: workplace-politics.jpg
   description: |
-    Drawing on surveys of managers and employees in eight countries and a close look at Russia,
-    this book examines the subtle and not so subtle ways that employers mobilize their workers
-    to vote, and when politicians are able to enlist them to do so.
+    In many countries politicians rely on employers to influence the voting behavior of their employees, but this type of voter mobilization is remarkably understudied. Workplace Mobilization: How Politicians and Employer Subvert Elections draws on unique surveys of firm managers and employees in eight countries, as well as a wealth of fine-grained observational data and qualitative interviews from Russia to demonstrate that workplace mobilization is common, often coercive, and unpopular with many voters. It argues that when firm managers depend on the state, cannot easily move their assets, or can easily replace workers, politicians can induce employers to get their workers to the polls. In these settings, politicians and employers can use workplace mobilization to diminish voter autonomy, undermine electoral integrity, and skew electoral outcomes in favor of entrenched political groups. But because workplace mobilization is unpopular in the broader electorate, politicians use this strategy less frequently in information rich settings where voters are likely to learn about it. This book helps explain why countries whose economies are dominated by state interventions in markets, immobile capital, and slack labor markets may be especially prone to clientelism and autocratic rule and contributes to central debates in comparative politics and political economy.
 
 - id: weak-strongman
   title: "Weak Strongman: The Limits of Power in Putin's Russia"
@@ -26,10 +24,11 @@
   url: https://press.princeton.edu/books/hardcover/9780691212463/weak-strongman
   cover: weak-strongman.jpg
   description: |
-    Rather than treating Russian politics as an extension of Vladimir Putin's worldview or of
-    Russia's unique history, Weak Strongman emphasizes Russia's similarities to other autocracies
-    and highlights the difficult trade-offs that confront the Kremlin on issues from election
-    fraud and repression to propaganda and foreign policy.
+    Media and public discussion tends to understand Russian politics as a direct reflection of Vladimir Putin’s seeming omnipotence or Russia’s unique history and culture. Yet Russia is remarkably similar to other autocracies—and recognizing this illuminates the inherent limits to Putin’s power. Weak Strongman challenges the conventional wisdom about Putin’s Russia, highlighting the difficult trade-offs that confront the Kremlin on issues ranging from election fraud and repression to propaganda and foreign policy.
+
+    Drawing on three decades of his own on-the-ground experience and research as well as insights from a new generation of social scientists that have received little attention outside academia, Timothy Frye reveals how much we overlook about today’s Russia when we focus solely on Putin or Russian exceptionalism. Frye brings a new understanding to a host of crucial questions: How popular is Putin? Is Russian propaganda effective? Why are relations with the West so fraught? Can Russian cyber warriors really swing foreign elections? In answering these and other questions, Frye offers a highly accessible reassessment of Russian politics that highlights the challenges of governing Russia and the nature of modern autocracy.
+
+    Rich in personal anecdotes and cutting-edge social science, Weak Strongman offers the best evidence available about how Russia actually works.
   awards:
     - Shortlisted, 2022 Pushkin House Book Prize
     - 2022 Toronto International Festival of Authors
@@ -41,9 +40,7 @@
   url: https://www.cambridge.org/core/books/property-rights-and-property-wrongs/1D64239D598B4F00C34795DEF8952B39
   cover: property-rights-and-property-wrongs.jpg
   description: |
-    Using surveys and survey experiments with Russian firms from 2000 to 2012, this book shows how
-    political power, institutions, and social norms shape the security of property rights in
-    everyday business disputes.
+    Secure property rights are central to economic development and stable government, yet difficult to create. Relying on surveys in Russia from 2000 to 2012, Timothy Frye examines how political power, institutions, and norms shape property rights for firms. Through a series of simple survey experiments, Property Rights and Property Wrongs explores how political power, personal connections, elections, concerns for reputation, legal facts, and social norms influence property rights disputes from hostile corporate takeovers to debt collection to renationalization. This work argues that property rights in Russia are better seen as an evolving bargain between rulers and rightholders than as simply a reflection of economic transition, Russian culture, or a weak state. The result is a nuanced view of the political economy of Russia that contributes to central debates in economic development, comparative politics, and legal studies.
 
 - id: building-states-and-markets
   title: "Building States and Markets After Communism: The Perils of Polarized Democracy"
@@ -52,9 +49,7 @@
   url: https://www.cambridge.org/core/books/building-states-and-markets-after-communism/078E3ACA4136EA81C5637970309DA598
   cover: building-states-and-markets.jpg
   description: |
-    A study of state-building and market-building in 25 post-communist countries from 1990 to
-    2004, showing that democracy supports economic reform and stronger state institutions when
-    political polarization is low, and that polarization undercuts those gains.
+    Does democracy promote the creation of market economies and robust state institutions? Do state-building and market-building go hand in hand? Or do they work at cross-purposes? This book examines the relationship between state-building and market-building in 25 post-communist countries from 1990 to 2004. Based on cross-national statistical analyses, surveys of business managers, and case studies from Russia, Bulgaria, Poland, and Uzbekistan, Timothy Frye demonstrates that democracy is associated with more economic reform, stronger state institutions, and higher social transfers when political polarization is low. But he also finds that increases in political polarization dampen the positive impact of democracy by making policy less predictable. He traces the roots of political polarization to high levels of income inequality and the institutional legacy of communist rule. By identifying when and how democracy fosters markets and states, this work contributes to long-standing debates in comparative politics, public policy, and post-communist studies.
   awards:
     - Best Book Award, Comparative Democratization Section, American Political Science Association
     - 2011 Hewett Prize, Association for Slavic, East European, and Eurasian Studies
@@ -66,6 +61,8 @@
   with: Co-edited with Timothy Colton and Robert Legvold
   url: https://www.amacad.org/publication/policy-world-meets-academia-designing-us-policy-toward-russia
   cover: policy-world-meets-academia.jpg
+  description: |
+    The essays in this volume are not intended simply to shed light on different aspects of U.S. policy toward Russia. They were inspired by a desire to grapple directly with the problem raised by academia’s increasing distance from the policy world. Hence, we invited academics—in this case, the younger among them—to address the broad basic foreign policy tasks that policy-makers face. Their work falls into three categories: assessing the essential nature of the challenge contemporary Russia poses for U.S. policy; designing an effective U.S. response to this challenge; and dealing with the practical bureaucratic and political obstacles in the formation and implementation of U.S. policy toward Russia. The three topic areas in turn provide an organizational structure for this volume. We carefully selected eight scholars from the ranks of Russia specialists and the general field of international relations theory and asked each to take one of the three major topics. By drawing on what they saw as the insights from the discipline, they were urged to analyze an aspect of the problem in ways that would be useful to a policy-maker.
 
 - id: brokers-and-bureaucrats
   title: "Brokers and Bureaucrats: Building Market Institutions in Russia"
@@ -73,5 +70,9 @@
   year: 2000
   url: https://www.fulcrum.org/concern/monographs/fx719n361
   cover: brokers-and-bureaucrats.jpg
+  description: |
+    A classic problem of social order prompts the central questions of this book: Why are some groups better able to govern themselves than others? Why do state actors sometimes delegate governing power to other bodies? How do different organizations including the state, the business community, and protection rackets come to govern different markets? Scholars have used both sociological and economic approaches to study these questions; here Timothy Frye argues for a different approach. He seeks to extend the theoretical and empirical scope of theories of self-governance beyond groups that exist in isolation from the state and suggests that social order is primarily a political problem.
+
+    Drawing on extensive interviews, surveys, and other sources, Frye addresses these question by studying five markets in contemporary Russia, including the currency futures, universal and specialized commodities, and equities markets. Using a model that depicts the effect of state policy on the prospects for self-governance, he tests theories of institutional performance and offers a political explanation for the creation of social capital, the formation of markets, and the source of legal institutions in the postcommunist world. In doing so, Frye makes a major contribution to the study of states and markets.
   awards:
     - 2001 Hewett Prize, American Association for the Advancement of Slavic Studies

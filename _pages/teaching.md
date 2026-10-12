@@ -6,10 +6,15 @@ nav: true
 nav_order: 5
 ---
 
+I teach the following courses regularly:
+
 ## Graduate
 
-_Course list to come._
+- Comparative Politics Survey II
+- Politics of Autocracy
 
 ## Undergraduate
 
-_Course list to come._
+- Autocracy and Democracy
+- Comparative Politics Seminar
+- Honors Seminar

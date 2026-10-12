@@ -1,0 +1,4 @@
+{%- comment -%} Carries each entry's topics into the page so assets/js/topic-filter.js can filter on them. {%- endcomment -%}
+{%- if entry.topics -%}
+  {%- capture entrytype -%}{{ entrytype }}<span class="pub-topics" data-topics="{{ entry.topics | downcase | escape }}"></span>{%- endcapture -%}
+{%- endif -%}

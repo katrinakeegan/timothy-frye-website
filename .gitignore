@@ -19,3 +19,7 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+
+# Source CV; the site serves assets/pdf/Frye_CV.pdf
+*.doc
+*.docx

@@ -1,0 +1,65 @@
+# Books shown on the Books page, in this order (newest first).
+# cover: file name of an image placed in assets/img/book_covers/ (optional)
+# url, with, description, awards: all optional
+
+- title: "Workplace Politics: How Politicians and Employers Subvert Elections"
+  publisher: Oxford University Press
+  year: 2025
+  with: With Ora John Reuter and David Szakonyi
+  url: https://doi.org/10.1093/9780197802045.001.0001
+  cover:
+  description: >
+    Drawing on surveys of managers and employees in eight countries and a close look at Russia,
+    this book examines the subtle and not so subtle ways that employers mobilize their workers
+    to vote, and when politicians are able to enlist them to do so.
+
+- title: "Weak Strongman: The Limits of Power in Putin's Russia"
+  publisher: Princeton University Press
+  year: 2021
+  url: https://press.princeton.edu/books/hardcover/9780691212463/weak-strongman
+  cover:
+  description: >
+    Rather than treating Russian politics as an extension of Vladimir Putin's worldview or of
+    Russia's unique history, Weak Strongman emphasizes Russia's similarities to other autocracies
+    and highlights the difficult trade-offs that confront the Kremlin on issues from election
+    fraud and repression to propaganda and foreign policy.
+  awards:
+    - Shortlisted, 2022 Pushkin House Book Prize
+    - 2022 Toronto International Festival of Authors
+
+- title: "Property Rights and Property Wrongs: How Power, Institutions, and Norms Shape Economic Conflict in Russia"
+  publisher: Cambridge University Press
+  year: 2017
+  url: https://doi.org/10.1017/9781316661727
+  cover:
+  description: >
+    Using surveys and survey experiments with Russian firms from 2000 to 2012, this book shows how
+    political power, institutions, and social norms shape the security of property rights in
+    everyday business disputes.
+
+- title: "Building States and Markets After Communism: The Perils of Polarized Democracy"
+  publisher: Cambridge University Press
+  year: 2010
+  url: https://doi.org/10.1017/CBO9780511779718
+  cover:
+  description: >
+    A study of state-building and market-building in 25 post-communist countries from 1990 to
+    2004, showing that democracy supports economic reform and stronger state institutions when
+    political polarization is low, and that polarization undercuts those gains.
+  awards:
+    - Best Book Award, Comparative Democratization Section, American Political Science Association
+    - 2011 Hewett Prize, Association for Slavic, East European, and Eurasian Studies
+
+- title: "The Policy World Meets Academia: Designing U.S. Policy toward Russia"
+  publisher: American Academy of Arts and Sciences
+  year: 2010
+  with: Co-edited with Timothy Colton and Robert Legvold
+  cover:
+
+- title: "Brokers and Bureaucrats: Building Market Institutions in Russia"
+  publisher: University of Michigan Press
+  year: 2000
+  url: https://doi.org/10.3998/mpub.10736
+  cover:
+  awards:
+    - 2001 Hewett Prize, American Association for the Advancement of Slavic Studies

@@ -1,0 +1,16 @@
+# Filter buttons on the Articles page.
+# "id" is what goes in a publication's `topics = {...}` field in _bibliography/papers.bib.
+themes:
+  - id: public-opinion
+    label: Public Opinion
+  - id: elections
+    label: Elections
+  - id: economic-policy
+    label: Economic Policy
+  - id: property-rights
+    label: Property Rights
+  - id: ukraine-war
+    label: Ukraine War
+regions:
+  - id: russia
+    label: Russia

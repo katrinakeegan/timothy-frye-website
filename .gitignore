@@ -23,3 +23,7 @@ __pycache__/
 # Source CV; the site serves assets/pdf/Frye_CV.pdf
 *.doc
 *.docx
+
+# Review spreadsheets (working files, not part of the site)
+*.xlsx
+*.csv

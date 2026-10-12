@@ -223,6 +223,8 @@ exclude:
   - package-lock.json
   - "*.doc"
   - "*.docx"
+  - "*.xlsx"
+  - "*.csv"
   - MAINTAINING.md
   - purgecss.config.js
   - README.md

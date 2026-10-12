@@ -6,11 +6,13 @@ themes:
   - id: elections
     label: Elections
   - id: economic-policy
-    label: Economic Policy
+    label: Economic Policy & Firm Behavior
   - id: property-rights
-    label: Property Rights
-  - id: ukraine-war
-    label: Ukraine War
+    label: Property Rights & Rule of Law
+  - id: political-institutions
+    label: Political Institutions
 regions:
   - id: russia
     label: Russia
+  - id: ukraine
+    label: Ukraine

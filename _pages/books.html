@@ -5,27 +5,34 @@ title: Books
 nav: true
 nav_order: 1
 ---
-
 {% for book in site.data.books %}
-
-<div class="book">
-  {% if book.cover %}
-    <div class="book-cover">
-      <img src="{{ book.cover | prepend: '/assets/img/book_covers/' | relative_url }}" alt="Cover of {{ book.title | escape }}" loading="lazy">
-    </div>
-  {% endif %}
-  <div class="book-body">
-    <h2>{% if book.url %}<a href="{{ book.url }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}</h2>
-    <p class="book-meta">
-      {{ book.publisher }}, {{ book.year }}{% if book.with %}<br>{{ book.with }}{% endif %}
-    </p>
-    {% if book.description %}<p>{{ book.description }}</p>{% endif %}
-    {% if book.awards %}
-      <ul class="book-awards">
-        {% for award in book.awards %}<li>{{ award }}</li>{% endfor %}
-      </ul>
+  <div class="book" id="{{ book.id }}">
+    {% if book.cover %}
+      <div class="book-cover">
+        <img src="{{ book.cover | prepend: '/assets/img/book_covers/' | relative_url }}" alt="Cover of {{ book.title | escape }}" loading="lazy">
+      </div>
     {% endif %}
+    <div class="book-body">
+      <h2>{{ book.title }}</h2>
+      <p class="book-meta">
+        {{ book.publisher }}, {{ book.year }}
+        {% if book.with %}<br>{{ book.with }}{% endif %}
+      </p>
+      {% if book.description %}
+        <div class="book-description">{{ book.description | markdownify }}</div>
+      {% endif %}
+      {% if book.awards %}
+        <ul class="book-awards">
+          {% for award in book.awards %}
+            <li>{{ award }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if book.url %}
+        <div class="book-links">
+          <a class="link-btn" href="{{ book.url }}">Publisher {% include icon_external.liquid %}</a>
+        </div>
+      {% endif %}
+    </div>
   </div>
-</div>
-
 {% endfor %}

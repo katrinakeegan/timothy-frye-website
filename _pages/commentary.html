@@ -1,0 +1,21 @@
+---
+layout: page
+permalink: /commentary/
+title: Commentary
+description: Selected writing for general audiences.
+nav: true
+nav_order: 4
+---
+<ul class="commentary-list">
+  {% for item in site.data.commentary %}
+    <li>
+      <span class="commentary-title">{{ item.title }}</span>
+      <span class="commentary-meta">
+        <em>{{ item.outlet }}</em>, {{ item.date }}{% if item.with %}. {{ item.with }}{% endif %}
+      </span>
+      {% if item.url %}
+        <a class="link-btn" href="{{ item.url }}">Link {% include icon_external.liquid %}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

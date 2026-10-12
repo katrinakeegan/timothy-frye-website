@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 3
+nav_order: 6
 ---
 
 <a class="cv-download" href="{{ '/assets/pdf/Frye_CV.pdf' | relative_url }}" download>Download CV (PDF)</a>

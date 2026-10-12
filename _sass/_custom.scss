@@ -172,3 +172,103 @@ h6,
   font-size: 0.9rem;
   color: var(--global-text-color-light);
 }
+
+/* Deep red band down the left edge of every page */
+:root {
+  --spine-width: 8px;
+}
+
+@media (min-width: 576px) {
+  :root {
+    --spine-width: clamp(20px, 4vw, 64px);
+  }
+}
+
+body {
+  padding-left: var(--spine-width);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--spine-width);
+  background: var(--global-theme-color);
+  z-index: 2000;
+}
+
+.navbar.fixed-top,
+footer.fixed-bottom {
+  left: var(--spine-width);
+}
+
+/* Small icons inside buttons */
+.btn-icon {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 0.2rem;
+  transition: transform 0.15s ease;
+}
+
+.publications ol.bibliography li .links:has(~ .abstract.hidden.open) a.abstract .btn-icon-expand {
+  transform: rotate(180deg);
+}
+
+/* Outlined link button used on the Books and Commentary pages */
+.link-btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 0.25rem 1rem;
+  border: 1px solid var(--global-text-color);
+  border-radius: 0.2rem;
+  color: var(--global-text-color);
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+.book-description p:last-child {
+  margin-bottom: 0.75rem;
+}
+
+.book-links {
+  margin-top: 0.75rem;
+}
+
+/* Commentary */
+.commentary-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+
+  li {
+    padding: 1rem 0;
+    border-top: 1px solid var(--global-divider-color);
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+}
+
+.commentary-title {
+  display: block;
+  font-weight: bolder;
+}
+
+.commentary-meta {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Home: contact lines stack */
+.profile .more-info p {
+  display: block;
+}

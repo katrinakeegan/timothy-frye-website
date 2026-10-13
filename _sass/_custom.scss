@@ -277,3 +277,8 @@ footer.fixed-bottom {
 .book {
   scroll-margin-top: 5rem;
 }
+
+/* Italic text inside a link takes the link's color */
+a em {
+  color: inherit;
+}

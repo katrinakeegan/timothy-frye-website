@@ -272,3 +272,8 @@ footer.fixed-bottom {
 .profile .more-info p {
   display: block;
 }
+
+/* Keep a book's heading clear of the fixed navigation bar when linked to directly */
+.book {
+  scroll-margin-top: 5rem;
+}

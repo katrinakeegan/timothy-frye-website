@@ -16,5 +16,5 @@ I teach the following courses regularly:
 ## Undergraduate
 
 - Autocracy and Democracy
-- Comparative Politics Seminar
+- Comparative Politics Seminar: Corruption and the Rule of Law
 - Honors Seminar

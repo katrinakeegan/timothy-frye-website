@@ -282,3 +282,11 @@ footer.fixed-bottom {
 a em {
   color: inherit;
 }
+
+/* Home: office address and email on one line under the title */
+.contact-line {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}

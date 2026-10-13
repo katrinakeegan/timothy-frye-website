@@ -2,16 +2,17 @@
 layout: about
 title: About
 permalink: /
-subtitle: Marshall D. Shulman Professor of Post-Soviet Foreign Policy<br>Department of Political Science, Columbia University
+subtitle: >
+  Marshall D. Shulman Professor of Post-Soviet Foreign Policy<br>
+  Department of Political Science, Columbia University
+  <span class="contact-line">420 W. 118th Street, 811 IAB, New York, NY 10027 &middot; tmf2 [at] columbia [dot] edu</span>
 
-profile:
-  align: right
-  # image: prof_pic.jpg # add the headshot to assets/img/ and uncomment this line
-  image_circular: false
-  more_info: >
-    <p>420 W. 118th Street, 811 IAB</p>
-    <p>New York, NY 10027</p>
-    <p>tmf2 [at] columbia [dot] edu</p>
+# To add the headshot: put the image in assets/img/, then remove the "#" from the four lines below
+# and replace prof_pic.jpg with the image's file name.
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false
 
 selected_papers: false
 social: false

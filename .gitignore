@@ -27,3 +27,7 @@ __pycache__/
 # Review spreadsheets (working files, not part of the site)
 *.xlsx
 *.csv
+
+# Word temporary and lock files
+~$*
+~*.tmp
